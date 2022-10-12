@@ -1,0 +1,9 @@
+package Matematika;
+
+public class KvadratnaFunckija {
+	private double a, b, c;  
+	public KvadratnaFunckija()
+	{
+		
+	}
+}

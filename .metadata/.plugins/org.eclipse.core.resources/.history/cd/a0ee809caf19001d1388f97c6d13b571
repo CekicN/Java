@@ -1,0 +1,5 @@
+package mat;
+
+public abstract class Vektor implements Comparable<Vektor>{
+	
+}

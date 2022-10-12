@@ -1,0 +1,17 @@
+
+public class NasaKlasa {
+	private int b;
+	
+	public NasaKlasa(int b)
+	{
+		this.b= b;
+	}
+	public int getB() {
+		return b;
+	}
+
+	public void setB(int b) {
+		this.b = b;
+	}
+	
+}

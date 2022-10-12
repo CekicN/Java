@@ -1,0 +1,15 @@
+package mat;
+
+public abstract class Vektor implements Comparable<Vektor>{
+	private double[] vektor;
+	private int kap;
+	
+	public void ucitaj(String fajl) throws NultiVektor
+	{
+		try {
+			
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+}

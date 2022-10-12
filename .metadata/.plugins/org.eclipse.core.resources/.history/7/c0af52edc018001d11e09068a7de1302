@@ -1,0 +1,7 @@
+import kolekcije.*;
+
+public class Main {
+	public static void main(String[] args) {
+		Magacin m = new Magacin(10);
+	}
+}

@@ -1,0 +1,21 @@
+import java.io.*;
+public class Txt {
+	public void citaj(String ime)
+	{
+		try {
+			FileReader f = new FileReader(ime);
+			BufferedReader b = new BufferedReader(f);
+			
+			String red = b.readLine();
+			b.close();
+			System.out.println(red);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public void pisi(String name)
+	{
+		FileWriter f = new FileWriter(name);
+	}
+}

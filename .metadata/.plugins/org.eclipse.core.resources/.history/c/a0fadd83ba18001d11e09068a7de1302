@@ -1,0 +1,38 @@
+package Matematika;
+
+public class LinearnaFunkcija implements Funkcija {
+
+	private double a,b;
+	
+	public LinearnaFunkcija()
+	{
+		a = b = 0;
+	}
+	public LinearnaFunkcija(double x)
+	{
+		a = b = x;
+	}
+	public LinearnaFunkcija(double a, double b)
+	{
+		this.a = a;
+		this.b = b;
+	}
+	@Override
+	public double vrednost(double tacka) {
+		
+		return a*tacka + b;
+	}
+
+	@Override
+	public boolean realneNule() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public double[] nule() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

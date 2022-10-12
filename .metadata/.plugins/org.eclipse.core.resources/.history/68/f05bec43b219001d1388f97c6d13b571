@@ -1,0 +1,7 @@
+import mat.*;
+public class Main {
+	public static void main(String[] args) {
+		RealVekt v1 = new RealVekt();
+		RealVekt v2 = new RealVekt();
+	}
+}

@@ -1,0 +1,20 @@
+package horNiz;
+import java.io.*;
+public class HorNiz {
+	private int[] niz;
+	private String red;
+	
+	public void citaj(String fajl)
+	{
+		try {
+			FileReader f = new FileReader(fajl);
+			BufferedReader b = new BufferedReader(f);
+			
+			red = b.readLine();
+			b.close();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+}

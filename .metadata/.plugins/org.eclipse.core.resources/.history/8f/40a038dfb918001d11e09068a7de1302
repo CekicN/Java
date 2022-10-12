@@ -1,0 +1,5 @@
+package Matematika;
+
+public interface Funkcija {
+
+}

@@ -1,0 +1,13 @@
+package kolekcije;
+
+public class Magacin {
+	private Object[] niz;
+	private int tmp;
+	private int kap;
+	
+	public Magacin(int kap)
+	{
+		this.kap = kap;
+		niz = new Object[kap];
+	}
+}

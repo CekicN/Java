@@ -1,0 +1,8 @@
+
+public class NekaKlasa {
+	public static <T> void metod()
+	{
+		T pod;
+		System.out.println(pod.getClass().getName());
+	}
+}

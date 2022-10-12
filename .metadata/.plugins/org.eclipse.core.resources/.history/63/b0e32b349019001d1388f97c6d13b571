@@ -1,0 +1,4 @@
+
+public class Sanduk <T>{
+	private T pod;
+}

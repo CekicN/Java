@@ -1,0 +1,10 @@
+
+public class RacionalanBroj {
+	private int br,im;
+	public RacionalanBroj(int b, int i)throws Exception
+	{
+		br = b;
+		im = i;
+	}
+	
+}

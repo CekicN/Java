@@ -1,0 +1,12 @@
+
+public class Sluzba {
+	public static double prosek(Student s) throws NemaOcena, NemaStudenta
+	{
+		int[] niz = s.getOcene();
+		double a = 0;
+		for (int i = 0; i < niz.length; i++) {
+			a+= niz[i];
+		}
+		return a/niz.length;	
+	}
+}

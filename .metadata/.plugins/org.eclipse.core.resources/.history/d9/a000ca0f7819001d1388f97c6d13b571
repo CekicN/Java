@@ -1,0 +1,13 @@
+import java.io.*;
+public class Auto {
+	private String tablica;
+	public Auto(BufferedReader b)
+	{
+		try {
+			tablica = b.readLine();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

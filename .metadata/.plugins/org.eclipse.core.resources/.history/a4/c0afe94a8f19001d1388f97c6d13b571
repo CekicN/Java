@@ -1,0 +1,9 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Sanduk s1 = new Sanduk();
+		s1.setPod(new Integer(10));
+		
+		String s = (String)s1.getPod()
+;	}
+}

@@ -1,0 +1,13 @@
+
+public class PointCity extends Point {
+	
+	private String name;
+	private int pop;
+	
+	public PointCity()
+	{
+		super();
+		pop = 0;
+	}
+	
+}

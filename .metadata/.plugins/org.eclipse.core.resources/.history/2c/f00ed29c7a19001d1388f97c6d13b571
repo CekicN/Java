@@ -1,0 +1,12 @@
+package nizovi;
+
+public class Vektor {
+	private int n;
+	private float[] niz;
+	
+	public Vektor(int n)
+	{
+		this.n = n;
+		niz = new float[n];
+	}
+}

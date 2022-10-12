@@ -1,0 +1,19 @@
+package mat;
+import java.io.*;
+public abstract class Vektor implements Comparable<Vektor>{
+	private double[] vektor;
+	private int kap;
+	
+	public void ucitaj(String fajl) throws NultiVektor
+	{
+		try {
+			FileReader f = new FileReader(fajl);
+			BufferedReader b = new BufferedReader(f);
+			
+			kap = Integer.parseInt(b.readLine());
+			vektor = new double[kap];
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+}

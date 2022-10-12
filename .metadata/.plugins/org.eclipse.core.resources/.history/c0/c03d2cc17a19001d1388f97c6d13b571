@@ -1,0 +1,31 @@
+package nizovi;
+
+public class Vektor {
+	private int n;
+	private float[] niz;
+	private String fajl;
+	public Vektor(String fajl)
+	{
+		this.fajl = fajl;
+	}
+	public void CitanjeVer()
+	{
+		
+	}
+	public void CitanjeHor()
+	{
+		
+	}
+	public void CiranjeBin()
+	{
+		
+	}
+	public void PisiVer()
+	{
+		
+	}
+	public void PisiHor()
+	{
+		
+	}
+}

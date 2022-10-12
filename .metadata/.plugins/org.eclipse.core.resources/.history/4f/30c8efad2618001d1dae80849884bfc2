@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Telo t1 = new Kvadar(25, 10);
+		
+		t1.dim();
+	}
+
+}

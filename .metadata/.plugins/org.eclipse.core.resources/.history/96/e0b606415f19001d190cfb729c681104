@@ -1,0 +1,16 @@
+import java.io.*;
+public class CitajPisiBin {
+	
+	public void upis()
+	{
+		try {
+			FileOutputStream fo = new FileOutputStream("fajl.bin");
+			BufferedOutputStream bf = new BufferedOutputStream(fo);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+}

@@ -1,0 +1,30 @@
+package algebra;
+
+import java.io.*;
+
+public class Razlomak extends Broj{
+
+	private int br,im;
+	
+	public void ucitaj(String b,String i)
+	{
+		br = super.ucitaj(b);
+		im = super.ucitaj(i);
+	}
+
+	@Override
+	public double vrednost() {
+		
+		return br/(double)im;
+	}
+	
+	public void upisi(String fajl)
+	{
+		try {
+			FileInputStream f = new FileInputStream(fajl);
+			BufferedInputStream b = new BufferedInputStream(f);
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+}

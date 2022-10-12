@@ -1,0 +1,8 @@
+import java.io.*;
+public class Auto {
+	private String tablica;
+	public Auto(BufferedReader b)
+	{
+		tablica = b.readLine();
+	}
+}

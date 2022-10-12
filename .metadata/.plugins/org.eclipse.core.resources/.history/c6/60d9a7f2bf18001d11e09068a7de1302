@@ -1,0 +1,27 @@
+package kolekcije;
+
+public class Magacin {
+	private Object[] niz;
+	private int tmp;
+	private int kap;
+	
+	public Magacin(int kap)
+	{
+		this.kap = kap;
+		niz = new Object[kap];
+	}
+	
+	public void push(Object o)
+	{
+		
+	}
+	public Object pop()
+	{
+		return null;
+	}
+	
+	public boolean prazanJe()
+	{
+		return false;
+	}
+}

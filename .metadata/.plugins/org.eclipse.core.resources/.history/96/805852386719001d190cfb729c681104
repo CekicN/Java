@@ -1,0 +1,16 @@
+package horNiz;
+import java.io.*;
+public class HorNiz {
+	private int[] niz;
+	private String red;
+	
+	public void citaj(String fajl)
+	{
+		try {
+			
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+	
+}

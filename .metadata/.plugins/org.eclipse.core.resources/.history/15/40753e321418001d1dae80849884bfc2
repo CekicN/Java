@@ -1,0 +1,9 @@
+
+public class Point {
+	protected double x, y;
+	
+	public Point()
+	{
+		x = y = 0;
+	}
+}

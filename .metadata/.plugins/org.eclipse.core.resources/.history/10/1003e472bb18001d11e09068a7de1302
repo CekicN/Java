@@ -1,0 +1,15 @@
+package Matematika;
+
+public class KvadratnaFunckija {
+	private double a, b, c;  
+	public KvadratnaFunckija()
+	{
+		a = b = c = 0;
+	}
+	public KvadratnaFunckija(double a, double b, double c)
+	{
+		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+}

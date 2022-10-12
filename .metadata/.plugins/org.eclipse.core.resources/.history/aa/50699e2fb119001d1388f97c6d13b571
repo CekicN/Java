@@ -1,0 +1,31 @@
+package mat;
+
+import java.io.BufferedInputStream;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+
+public class RealVekt extends Vektor{
+
+	public double suma()
+	{
+		return 0;
+	}
+	public void upisi(String fajl)
+	{
+		try {
+			FileOutputStream f = new FileOutputStream(fajl);
+			BufferedOutputStream b = new BufferedOutputStream(f);
+			DataOutputStream d= new DataOutputStream(b);
+			
+			d.close();
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+	}
+	@Override
+	public double proizvod() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

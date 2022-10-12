@@ -1,0 +1,46 @@
+
+public class KlasaIterator implements Iterator{
+
+	private Object[] niz;
+	
+	private int tmp;
+	private int max;
+	private int pop;
+	
+	@Override
+	public void dodajElement(int e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dodajElement(float e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dodajElement(String e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int broj() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void sledeci() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void naPocetak() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

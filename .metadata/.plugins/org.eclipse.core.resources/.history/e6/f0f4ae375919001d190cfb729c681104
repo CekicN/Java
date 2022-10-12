@@ -1,0 +1,4 @@
+
+public class NemaStudenta extends Exception {
+
+}

@@ -1,0 +1,4 @@
+
+public class DeljenjeNulom extends Exception{
+
+}

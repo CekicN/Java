@@ -1,0 +1,14 @@
+import Matematika.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Funkcija k1, k2;
+		
+		k1 = new LinearnaFunkcija(1.1, 2.2);
+		
+		System.out.println(k1.vrednost(2.5));
+
+	}
+
+}

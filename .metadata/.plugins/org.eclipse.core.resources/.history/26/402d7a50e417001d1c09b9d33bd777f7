@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Poruka p1 = new Poruka();
+		Poruka p2 = new Poruka();
+		Poruka p3 = new Poruka();
+		
+		p1.postavi("ovo je prvi tekst");
+		p2.postavi("ovo je drugi tekst");
+		p3.postavi("ovo je treci tekst");
+	}
+}

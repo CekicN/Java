@@ -1,0 +1,11 @@
+
+public class Par <K, V>{
+	private K kljuc;
+	private V vrednost;
+	
+	public Par(K kljuc, V v)
+	{
+		this.kljuc = kljuc;
+		vrednost = v;
+	}
+}

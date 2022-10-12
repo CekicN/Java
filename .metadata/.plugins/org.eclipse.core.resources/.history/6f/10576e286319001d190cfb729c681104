@@ -1,0 +1,12 @@
+import java.io.*;
+public class Txt {
+	public void citaj(String ime)
+	{
+		try {
+			FileReader f = new FileReader(ime);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

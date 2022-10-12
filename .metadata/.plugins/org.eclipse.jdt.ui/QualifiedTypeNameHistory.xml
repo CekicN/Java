@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="PointCity"/>
+    <fullyQualifiedTypeName name="ObicanDisplay"/>
+    <fullyQualifiedTypeName name="MatricniDisplay"/>
+    <fullyQualifiedTypeName name="Iterator"/>
+    <fullyQualifiedTypeName name="KlasaIterator"/>
+    <fullyQualifiedTypeName name="Matematika.LinearnaFunkcija"/>
+    <fullyQualifiedTypeName name="Matematika.KvadratnaFunckija"/>
+    <fullyQualifiedTypeName name="kolekcije.Magacin"/>
+    <fullyQualifiedTypeName name="RacionalanBroj"/>
+    <fullyQualifiedTypeName name="DeljenjeNulom"/>
+    <fullyQualifiedTypeName name="Student"/>
+    <fullyQualifiedTypeName name="NemaOcena"/>
+    <fullyQualifiedTypeName name="NemaStudenta"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
+    <fullyQualifiedTypeName name="CitajPisiBin"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="horNiz.HorNiz"/>
+</qualifiedTypeNameHistroy>

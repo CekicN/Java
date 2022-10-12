@@ -1,0 +1,13 @@
+
+public class Telo {
+	protected double baza;
+	protected double visina;
+	
+	public Telo() 
+	{
+		baza = visina = 1;
+	}
+	
+	public Telo()
+	
+}

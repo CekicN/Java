@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Poruka p = Poruka.uzmi();
+		
+		p.postavi("ovo je prvi tekst");
+		
+	}
+}

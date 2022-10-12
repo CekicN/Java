@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		RacionalanBroj rb1;
+		
+		rb1 = new RacionalanBroj(0, 0);
+
+	}
+
+}

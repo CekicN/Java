@@ -1,0 +1,5 @@
+
+public class Par <K, V>{
+	private K kluc;
+	private V vrednost;
+}

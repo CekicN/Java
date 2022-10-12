@@ -1,0 +1,7 @@
+
+public class NekaKlasa {
+	public static <T> void metod()
+	{
+		T pod;
+	}
+}
