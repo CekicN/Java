@@ -1,7 +1,8 @@
-package Matematika;
+package matematika;
 
 public interface Funkcija {
 	double vrednost(double tacka);
-	boolean realneNule();
+	boolean imaRealNule();
 	double[] nule();
+	
 }

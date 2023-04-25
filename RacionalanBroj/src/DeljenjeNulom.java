@@ -1,8 +1,9 @@
 
 public class DeljenjeNulom extends Exception{
-	
-	public DeljenjeNulom(String e)
+	public DeljenjeNulom(String s)
 	{
-		super(e);
+		super(s);
+		System.out.println("Ovo je ispisao izuzetak!");
 	}
+
 }

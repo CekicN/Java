@@ -4,37 +4,41 @@ public class CitajPisiBin {
 	public void upis()
 	{
 		try {
-			FileOutputStream fo = new FileOutputStream("fajl.bin");
-			BufferedOutputStream bf = new BufferedOutputStream(fo);
-			DataOutputStream ds = new DataOutputStream(bf);
+			FileOutputStream f = new FileOutputStream("fajl.bin");
+			BufferedOutputStream b = new BufferedOutputStream(f);
+			DataOutputStream d = new DataOutputStream(b);
 			
-			ds.writeInt(10);
-			ds.writeFloat(1.1f);
-			ds.writeBoolean(false);
-			ds.close();
-		
+			d.writeInt(10);
+			d.writeFloat(2.2f);
+			d.writeBoolean(true);
+			
+			d.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println(e);
 		}
 	}
 	
 	public void citanje()
 	{
+		FileInputStream fis;
 		try {
-			FileInputStream fi = new FileInputStream("fajl.bin");
-			BufferedInputStream bf = new BufferedInputStream(fi);
-			DataInputStream d = new DataInputStream(bf);
+			fis = new FileInputStream("fajl.bin");
+			BufferedInputStream bis = new BufferedInputStream(fis);
+			DataInputStream dis = new DataInputStream(bis);
 			
-			int celi = d.readInt();
-			float realni  = d.readFloat();
-			boolean logicki = d.readBoolean();
-			d.close();
-			System.out.println(celi +" "+realni+" "+ logicki);
+			int celi = dis.readInt();
+			float real = dis.readFloat();
+			boolean log = dis.readBoolean();
+			
+			dis.close();
+			
+			System.out.println(celi + ", " + real + ", " + log);
 		} catch (IOException e) {
-			System.out.println(e.getMessage());
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 		
 	}
+
 }

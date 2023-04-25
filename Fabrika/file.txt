@@ -1,0 +1,7 @@
+
+sifra:0sprat:1aktivna:trueImeServisera:Nikola
+
+sifra:1sprat:2aktivna:trueImeServisera:Colja
+
+sifra:2sprat:3aktivna:falseImeServisera:Milo
+

@@ -1,40 +1,51 @@
 package kolekcije;
 
 public class Magacin {
-	private Object[] niz;
-	private int tmp;
-	private int kap;
+	private Object niz[];
+	private int trenutni;
+	private int kapacitet;
 	
 	public Magacin(int kap)
 	{
-		tmp = -1;
-		this.kap = kap;
-		niz = new Object[kap];
+		kapacitet = kap;
+		niz = new Object[kapacitet];
+		trenutni = 0;
+	
 	}
 	
 	public void push(Object o)
 	{
-		if (++tmp < kap) {
-			niz[tmp] = o;
+        if (trenutni < kapacitet) 
+        {
+        	niz[trenutni++] = o;	
 		}
-		else
-			System.out.println("Pun je");
-		
+        else
+        {
+        	System.out.println("Pun je!!!");
+        }
 	}
 	public Object pop()
 	{
-		if (!prazanJe()) {
-			return niz[tmp--];
+		if (!prazanje()) {
+			trenutni--;
+			return niz[trenutni];	
 		}
 		else
 		{
-			System.out.println("Prazan je");
+		   System.out.println("Prazan je!!!");
+			return null;
 		}
-		return null;
+		
+		
+		
 	}
-	
-	public boolean prazanJe()
+
+	public boolean prazanje()
 	{
-		return tmp==-1;
+		if (trenutni == 0) {
+			return true;
+		}
+		else
+			return false;
 	}
 }

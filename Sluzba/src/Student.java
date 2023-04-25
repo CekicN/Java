@@ -1,21 +1,20 @@
 
 public class Student {
+
 	public static final int brIsp = 30;
-	
 	private int[] ocene;
-	private String ime;
-	private String prezime;
+	private String Ime;
+	private String Prezime;
 	
-	public Student() {}
-	public Student(int[] o)
+	public Student(int[] oc)
 	{
-		ocene = o;
-		
+		ocene = oc;
 	}
-	public int[] getOcene() throws NemaOcena 
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+	public int[] vratiOc() throws NemaOcena
 	{
-		if(ocene == null)
-			throw new NemaOcena("Nema Ocena");
 		return ocene;
 	}
 }
