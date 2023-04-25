@@ -1,9 +1,0 @@
-import algebra.*;
-public class Main {
-	public static void main(String[] args) {
-		Razlomak r1 = new Razlomak();
-		Razlomak r2 = new Razlomak();
-		
-		r1.ucitaj("fajl1.txt")
-	}
-}

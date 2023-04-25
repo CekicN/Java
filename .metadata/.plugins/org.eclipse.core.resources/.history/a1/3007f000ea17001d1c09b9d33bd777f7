@@ -1,9 +1,0 @@
-
-public class Krug {
-	private double r;
-	
-	public Krug(double r)
-	{
-		this.r = r;
-	}
-}

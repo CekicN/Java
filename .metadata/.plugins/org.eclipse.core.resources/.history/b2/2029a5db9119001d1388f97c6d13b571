@@ -1,6 +1,0 @@
-
-public class Main {
-	public static void main(String[] args) {
-		ArratList<Integer> li = new ArrayList<>();
-	}
-}

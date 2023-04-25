@@ -1,7 +1,0 @@
-
-public class Main {
-	public static void main(String[] args) {
-		GenSanduk<Integer> s1 = new GenSanduk<>();
-		
-		}
-}

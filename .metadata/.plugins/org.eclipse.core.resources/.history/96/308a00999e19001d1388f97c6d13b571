@@ -1,5 +1,0 @@
-package algebra;
-
-public abstract class Broj implements Comparable<Broj> {
-	
-}

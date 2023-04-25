@@ -1,5 +1,0 @@
-package horNiz;
-import java.io.*;
-public class HorNiz {
-	private int[] niz;
-}

@@ -1,7 +1,0 @@
-
-public class Dzoker {
-	public static <T>void stampaj(List<T> lista)
-	{
-		
-	}
-}

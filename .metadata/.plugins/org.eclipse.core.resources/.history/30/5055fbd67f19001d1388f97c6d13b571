@@ -1,9 +1,0 @@
-import nizovi.*;
-public class Main {
-	public static void main(String[] args) {
-		Vektor v1, v2;
-		
-		v1 = new Vektor();
-		v2 = new Vektor();
-	}
-}

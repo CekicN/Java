@@ -1,9 +1,0 @@
-
-public class Main {
-
-	public static void main(String[] args) {
-		Display d1 = new ObicanDisplay(0);
-		d1.stampaj();
-	}
-
-}

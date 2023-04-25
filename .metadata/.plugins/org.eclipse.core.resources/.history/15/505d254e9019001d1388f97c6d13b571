@@ -1,6 +1,0 @@
-
-public class Glavna {
-	public static void main(String[] args) {
-		Sanduk <Integer> s1 = new Sanduk<>();
-	}
-}

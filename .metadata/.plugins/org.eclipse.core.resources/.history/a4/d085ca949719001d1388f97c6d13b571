@@ -1,7 +1,0 @@
-
-public class Brojac {
-	public static <T> int pobroj(T[] niz , T elem)
-	{
-		int b = 0;
-	}
-}

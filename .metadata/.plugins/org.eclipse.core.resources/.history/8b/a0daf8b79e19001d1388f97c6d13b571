@@ -1,9 +1,0 @@
-package algebra;
-
-public abstract class Broj implements Comparable<Broj> {
-	public void ucitaj(String fajl)
-	{
-		
-	}
-	public abstract vrednost();
-}
